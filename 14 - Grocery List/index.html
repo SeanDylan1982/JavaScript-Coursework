@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery List | Simple</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- Form section -->
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h3>grocery list</h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="Add an item...">
+          <button type="submit" class="submit-btn">
+            submit
+          </button>
+        </div>
+      </form>
+      <!-- End of form section -->
+      <!-- List section -->
+      <div class="grocery-container">
+        <div class="grocery-list">
+          <!-- List items will be created dynamically -->
+        </div>
+        <!-- Clear button -->
+        <button type="button" class="clear-btn">
+          clear list
+        </button>
+      <!-- End of list section -->
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
